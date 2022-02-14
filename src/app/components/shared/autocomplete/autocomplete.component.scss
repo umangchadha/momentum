@@ -1,0 +1,10 @@
+@use '../../../../assets/variables'as v;
+
+.ng-dropdown-panel .ng-dropdown-panel-items .ng-option.ng-option-selected,
+.ng-select.ng-select-focused .ng-select-container .ng-value-container .ng-placeholder {
+  color: v.$accent !important;
+}
+
+.ng-select.ng-select-multiple .ng-select-container .ng-value-container .ng-value {
+  background-color: v.$accent;
+}
